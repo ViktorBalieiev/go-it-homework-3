@@ -1,0 +1,255 @@
+:root {
+    --primary-text-color: #212121;
+    --hover-text-color: #2196f3;
+    --white-color-text: #ffffff;
+    --background-second-color: #2f303a;
+    --background-therd-color: #f5f4fa;
+    --grey-color: #757575 ;
+  }
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
+    color: #2a2a2a;
+}
+
+h1,h2,h3,h4,ul,p {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+}
+.hiden {
+    visibility: hidden;
+}
+
+/*Head-Site*/
+.logo {
+    font-family: Raleway , sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--hover-text-color);
+}
+.studio{
+    color: var(--primary-text-color);
+}
+
+.navigation-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em; 
+}
+.navigation-link:hover{
+    color: var(--hover-text-color);
+}
+.navigation-link:focus{
+    color: var(--hover-text-color);
+}
+.navigation-link{
+    color: var(--primary-text-color);
+}
+.current {
+    color: var(--hover-text-color);
+}
+
+.contacts-list{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contact-adress:hover {
+color: var(--hover-text-color);
+}
+.contact-adress:focus{
+    color: var(--hover-text-color);
+}
+.contact-adress{
+    color: grey;
+}
+/*Header*/
+
+/*Main*/
+
+.banner {
+    background-color: var(--background-second-color);
+}
+.banner-title {
+    font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.banner-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: #188CE8;
+    color: var(--white-color-text);
+    cursor: pointer;
+}
+.title-list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+}
+.paragraf {
+    font-size: 14px;
+    line-height: 1.71;
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+.title-three {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+
+.title-four {
+    font-weight: 700;
+    font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+.hero-paragraf {
+    font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+/*Bottom-Main*/ 
+
+/*Footer*/
+
+.footer{
+    background: #2F303A;
+}
+.logo-footer{
+ font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--hover-text-color);
+}
+
+.adress-footer {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+
+letter-spacing: 0.03em;
+}
+
+.white {
+    color: #FFFFFF;
+}
+.blue {
+    color: var(--hover-text-color);
+}
+.footer-contact:hover{
+    color: var(--hover-text-color);
+}
+.footer-contact:focus{
+    color: var(--hover-text-color);
+}
+.footer-contact{
+    font-size: 14px;
+    line-height: 1.73;
+    
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*bottom-footer*/
+
+/*portfolio-button*/
+
+.porftolio-hover:hover{
+    background-color: var(--hover-text-color);
+    color: var(--white-color-text);
+}
+.porftolio-hover:focus{
+    background-color: var(--hover-text-color);
+    color: var(--white-color-text);
+}
+.porftolio-hover{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+.cursor {
+cursor: pointer;
+}
+
+.portfilio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    
+    
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+.name-item {
+    font-size: 16px;
+    line-height: 1.87;
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
