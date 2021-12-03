@@ -13,6 +13,7 @@ body {
 }
 .container {
   width: 1200px;
+  margin: 0 auto;
 }
 .section {
   padding-top: 94px;
@@ -186,6 +187,10 @@ a {
 .title-img {
   margin-left: 30px;
 }
+.section-three {
+  display: block;
+  text-align: center;
+}
 .title-three {
   font-weight: 700;
   font-size: 36px;
@@ -205,6 +210,7 @@ a {
 
 .members-team {
   margin-left: 30px;
+  display: list-item;
 }
 
 .title-four {
@@ -300,7 +306,7 @@ a {
 }
 .porftolio-button {
   display: flex;
-  margin-left: 495px;
+  align-items: center;
   margin-bottom: 50px;
   justify-content: center;
 }
@@ -308,7 +314,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
-  margin-left: 24px;
 }
 .porftolio-hover:hover {
   background-color: var(--hover-text-color);
