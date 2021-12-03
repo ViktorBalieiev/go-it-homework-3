@@ -160,7 +160,9 @@ a {
   justify-content: center;
 }
 .list-benefits {
+  display: block;
   margin: auto;
+  padding-left: 30px;
 }
 .title-list {
   font-weight: 700;
