@@ -128,34 +128,34 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  align-items: center;
-  justify-content: center;
-  margin-left: 452px;
+  text-align: center;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .banner-button {
-  font-weight: 700;
+  color: white;
+  font-weight: bold;
   font-size: 16px;
-  line-height: 1.88;
-  align-items: center;
-  text-align: center;
+  line-height: 1.9;
   letter-spacing: 0.06em;
   background: #188ce8;
-  color: var(--white-color-text);
-  cursor: pointer;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 10px;
+  border: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 32px;
   padding-right: 32px;
-  margin-left: 700px;
   margin-top: 30px;
+  margin-left: 500px;
 }
 
 .list {
   display: flex;
-  margin-left: 215px;
+  align-items: center;
+  justify-content: center;
 }
 .list-benefits {
   margin: auto;
@@ -221,6 +221,7 @@ a {
   letter-spacing: 0.03em;
 
   color: #212121;
+  margin-bottom: 50px;
 }
 
 .hero-title {
